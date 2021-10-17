@@ -139,7 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Case.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Living.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="Game.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.hpp" />
+    <ClInclude Include="Case.hpp" />
+    <ClInclude Include="Diet.hpp" />
+    <ClInclude Include="Gender.hpp" />
+    <ClInclude Include="Plant.hpp" />
+    <ClInclude Include="Living.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
